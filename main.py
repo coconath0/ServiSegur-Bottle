@@ -1,11 +1,22 @@
-from bottle import Bottle, run, template
+from bottle import Bottle, run, template, static_file
 
 app = Bottle()
 
+
+@app.route('/static/<filename>')
+def server_static(filename):
+    return static_file(filename, root='./views/static')
+
+
+# static files
+@app.route('/:filename#.*#')
+def send_static(filename):
+  return static_file(filename, root='/static')
+
+
 @app.route('/', method='GET')
 def home():
-    locals = { 'mensaje': 'Si se puede'}
-    return template('home', locals)
+    return template('home')
 
 if __name__ == '__main__':
     run(app, host='localhost', port=8080, debug=True, reloader=True)
