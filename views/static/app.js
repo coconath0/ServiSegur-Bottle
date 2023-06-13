@@ -51,12 +51,12 @@ particlesJS('particles',
         }
       },
       "opacity": {
-        "value": 5,
+        "value": 1,
         "random": false,
         "anim": {
           "enable": false,
           "speed": 0.5,
-          "opacity_min": 1,
+          "opacity_min": 0.5,
           "sync": false
         }
       },
