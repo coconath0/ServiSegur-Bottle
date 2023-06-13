@@ -16,7 +16,7 @@
     <div class="container">
         <img src="/static/logoEmpresa.png" alt="logo">
     </div>
-    <h1>SERVISEGUR</h1>
+    <h1 id="empresaNom">SERVISEGUR</h1>
 
 
 

@@ -31,9 +31,10 @@ html, body {
     width: 250px;
     height: auto;
     opacity: 1;
+    pointer-events: none;
 }
 
-h1 {
+#empresaNom {
     
     font-family: "Merriweather", serif;
     position: absolute;
