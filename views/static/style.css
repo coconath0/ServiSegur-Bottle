@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap);
+
 * {
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     margin: 0;
-    background: #53131e;
+    /*background: #53131e;*/
 }
 
 #particles {
@@ -17,46 +18,31 @@ body {
     background: #53131e;
 }
 
-.aa_sec {
+.container {
+    position: relative;
+  }
+
+.container img {
     position: absolute;
-    z-index: 5;
-    top: 50%;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: auto;
+    opacity: 1;
 }
 
-.aa_txt {
-    /*font: 100 10vh/1 Roboto;*/
+h1 {
+    
     font-family: "Roboto Mono", monospace;
-    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
     font-weight: bold;
     text-align: center;
-    color: #53131e;
-}
-
-.aa_inner {
-    padding: 0 2rem;
-    text-transform: uppercase;
-    background: #ffffff;
-}
-
-.aa_of {
-    padding: 1rem;
     color: #ffffff;
-    background: #3e0e17;
-}
-
-.image-container {
-    display: inline-block;
-    /* Ensures the span wraps around the image */
-}
-
-.image-container img {
-    max-width: 100%;
-    /* Limits the image width to the width of the parent span */
-    height: auto;
-    /* Maintains the aspect ratio of the image */
 }
 
 .nath {
