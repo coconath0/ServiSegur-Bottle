@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/static/style.css">
-
-    <script  src="/static/particles.js"></script>
     <script src="/static/app.js"></script>
+    <script  src="/static/particles.js"></script>
+    
 </head>
 <body>
     
@@ -21,6 +21,7 @@
 
 
     <div id="particles"></div>
+    
 
     
     <div class="nath">
