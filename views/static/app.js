@@ -51,12 +51,12 @@ particlesJS('particles',
         }
       },
       "opacity": {
-        "value": 1,
+        "value": 0.5,
         "random": false,
         "anim": {
           "enable": false,
           "speed": 0.5,
-          "opacity_min": 0.5,
+          "opacity_min": 0.3,
           "sync": false
         }
       },
@@ -116,7 +116,7 @@ particlesJS('particles',
           "distance": 100,
           "size": 50,
           "duration": 2,
-          "opacity": 5,
+          "opacity": 2,
           "speed": 3
         },
         "repulse": {
