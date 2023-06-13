@@ -41,9 +41,7 @@
     <div class="container">
         <img src="/static/logoEmpresa.png" alt="logo">
     </div>
-    <h1 id="empresaNom">SERVISEGUR</h1>
-
-
+    <h1 id="empresaNom"> SERVISEGUR</h1>
 
     <div id="particles"></div>
     
