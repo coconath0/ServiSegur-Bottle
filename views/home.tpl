@@ -16,23 +16,19 @@
         <nav class="navBar">
             <ul class="nav__list">
                 <li class="nav_item">
-                    <a href="/home" class="nav__link active-link"> Home</a>
+                    <a href="/" class="nav__link active-link"> Home</a>
                 </li>
     
                 <li class="nav_item">
-                    <a href="/tabla1" class="nav__link">Tabla 1</a>
+                    <a href="/tabla1" class="nav__link">X</a>
                 </li>
     
                 <li class="nav_item">
-                    <a href="/tabla2" class="nav__link">Tabla 2</a>
+                    <a href="/tabla2" class="nav__link">Y</a>
                 </li>
     
                 <li class="nav_item">
-                    <a href="/tabla3" class="nav__link">Tabla 3</a>
-                </li>
-    
-                <li class="nav_item">
-                    <a href="/tabla4" class="nav__link">Tabla 4</a>
+                    <a href="/tabla3" class="nav__link">Z</a>
                 </li>
             </ul>
         </nav>

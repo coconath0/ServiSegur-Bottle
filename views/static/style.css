@@ -52,7 +52,8 @@ ul{
  */
  
  li a{
-    padding: 14px 16px;
+    display: block;
+    padding:  16px 18px;
 
  }
  .nav__list{
