@@ -23,9 +23,10 @@
     <div id="particles"></div>
     
 
-    
-    <div class="nath">
-        Designed by <a href="https://github.com/coconath0">Nathaly Ingol</a> - &#169; to creators of tsparticles
-    </div>
+    <footer>
+        <div class="nath">
+            Designed by <a href="https://github.com/coconath0">Nathaly Ingol</a> - &#169; to creators of tsparticles
+        </div>
+    </footer>
 </body>
 </html>

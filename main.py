@@ -8,12 +8,6 @@ def server_static(filename):
     return static_file(filename, root='./views/static')
 
 
-# static files
-#@app.route('/:filename#.*#')
-#def send_static(filename):
-#  return static_file(filename, root='/static')
-
-
 @app.route('/', method='GET')
 def home():
     return template('home')
