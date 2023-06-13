@@ -1,3 +1,4 @@
+/* pa comentar -> shift + alt + a */
 /*@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap);*/
 @import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap);
 
@@ -9,11 +10,49 @@
 
 html, body {
     margin: 0;
-    background: #53131e;
+    background: #2a070d;
+}
+
+.header {
+    position: relative;
+    padding: 0 0;
+    z-index: 1;
+    /*background-color: var(--body-color);*/
+  }
+
+/*NAV*/
+a{
+    text-decoration: none;
+    font-family: ".Figtree", sans-serif
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+.navBar li{
+    margin: 0 10px;
+    display: inline-block;
+}
+.nav__list{
+    display: flex;
+    gap: 2rem;
 }
 
 #particles {
-    z-index: 4;
+    z-index: 2;
     height: 100%;
     height: 100vh;
     background: #2a070d;
@@ -42,11 +81,18 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
-    font-weight: bold;
     text-align: center;
     color: #ffffff;
     user-select: none;
 }
+
+footer {
+    background-color: #53131e;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: ".Figtree", sans-serif;
+  }
 
 .nath {
     display: table;
@@ -56,11 +102,20 @@ html, body {
     text-align: center;
     background: #53131e;
     color: #ffffff;
-    font: 100 2vh/2 Roboto;
 }
 
-.nath a {
-    color: #cccccc;
-    text-decoration: none;
-    border-bottom: 1px solid #cccccc;
+.nav__link {
+    color: #ffffff;
+    text-decoration: none ;
+}
+
+.linkPerf{
+    color: #ffffff;
+    text-decoration: none ;
+    font-weight: bold;
+    border-bottom: 0.5px solid #ffffff; /*  ->Por si quieres subrayar una palabra/oracion/enlace */
+}
+
+.linkPerf :hover{
+    color: #ffffff ;
 }
