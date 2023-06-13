@@ -15,24 +15,24 @@
     <header class="header" id="header">
         <nav class="navBar">
             <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link active-link"> Home</a>
+                <li class="nav_item">
+                    <a href="/home" class="nav__link active-link"> Home</a>
                 </li>
     
-                <li class="nav__item">
-                    <a href="#about" class="nav__link">Tabla 1</a>
+                <li class="nav_item">
+                    <a href="/tabla1" class="nav__link">Tabla 1</a>
                 </li>
     
-                <li class="nav__item">
-                    <a href="#teaching" class="nav__link">Tabla 2</a>
+                <li class="nav_item">
+                    <a href="/tabla2" class="nav__link">Tabla 2</a>
                 </li>
     
-                <li class="nav__item">
-                    <a href="#education" class="nav__link">Tabla 3</a>
+                <li class="nav_item">
+                    <a href="/tabla3" class="nav__link">Tabla 3</a>
                 </li>
     
-                <li class="nav__item">
-                    <a href="#research" class="nav__link">Tabla 4</a>
+                <li class="nav_item">
+                    <a href="/tabla4" class="nav__link">Tabla 4</a>
                 </li>
             </ul>
         </nav>

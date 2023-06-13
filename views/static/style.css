@@ -23,7 +23,8 @@ html, body {
 /*NAV*/
 a{
     text-decoration: none;
-    font-family: ".Figtree", sans-serif
+    font-family: ".Figtree", sans-serif;
+    padding: 5px;
 
 }
 ul{
@@ -41,7 +42,32 @@ ul{
     align-items: center;
     background: transparent;
     backdrop-filter: blur(5px);
+    background-color: rgba(27, 4, 8, 0);
+    transition: background-color 0.5s ease ;
 }
+/* 
+.navBar:hover{
+    background-color: rgba(27, 4, 8, 0.5);
+}
+ */
+ 
+ li a{
+    padding: 14px 16px;
+
+ }
+ .nav__list{
+    list-style: none;
+    padding: 0;
+ }
+.nav_item{
+    transition: background-color 0.5s ease ;
+    margin: 10px 0;
+}
+
+.nav_item:hover{
+    background-color: rgba(27, 4, 8, 0.8);
+}
+
 .navBar li{
     margin: 0 10px;
     display: inline-block;
