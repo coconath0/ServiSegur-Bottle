@@ -8,31 +8,52 @@
     box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
-    background: #2a070d;
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0 0 3rem 0;
+    font-family: ".Figtree", sans-serif;
+    /* background: #2a070d; */
+}
+
+h2,
+h3,
+h4 {
+    color: hsl(215, 8%, 15%);
+    font-weight: 700;
 }
 
 .header {
+    width: 100%;
     position: relative;
     padding: 0 0;
     z-index: 1;
-    /*background-color: var(--body-color);*/
-  }
+}
 
-/*NAV*/
-a{
+/*NavBar*/
+a {
     text-decoration: none;
     font-family: ".Figtree", sans-serif;
     padding: 5px;
 
 }
-ul{
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.navBar{
+
+li a {
+    display: block;
+    padding: 16px 18px;
+
+}
+
+.navBar {
     width: 100%;
     height: 60px;
     display: flex;
@@ -43,53 +64,39 @@ ul{
     background: transparent;
     backdrop-filter: blur(5px);
     background-color: rgba(27, 4, 8, 0);
-    transition: background-color 0.5s ease ;
+    transition: background-color 0.5s ease;
 }
-/* 
-.navBar:hover{
-    background-color: rgba(27, 4, 8, 0.5);
-}
- */
- 
- li a{
-    display: block;
-    padding:  16px 18px;
 
- }
- .nav__list{
+.nav__list {
     list-style: none;
     padding: 0;
- }
-.nav_item{
-    transition: background-color 0.5s ease ;
+}
+
+.nav_item {
+    transition: background-color 0.5s ease;
     margin: 10px 0;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     background-color: rgba(27, 4, 8, 0.8);
 }
 
-.navBar li{
+.navBar li {
     margin: 0 10px;
     display: inline-block;
 }
-.nav__list{
+
+.nav__list {
     display: flex;
     gap: 2rem;
 }
 
-#particles {
-    z-index: 2;
-    height: 100%;
-    height: 100vh;
-    background: #2a070d;
+/* Home */
+.cont {
+    position: relative;
 }
 
-.container {
-    position: relative;
-  }
-
-.container img {
+.cont img {
     position: absolute;
     top: 200px;
     left: 50%;
@@ -112,13 +119,112 @@ ul{
     user-select: none;
 }
 
+#particles {
+    z-index: 2;
+    height: 100%;
+    height: 100vh;
+    background: #2a070d;
+}
+
+/* scroll down Home -> About */
+.home__scroll {
+    display: none;
+}
+
+.home__scroll-button {
+    color: #000000;
+    transition: 0.3s;
+}
+
+.home__scroll-button:hover {
+    transform: translateY(0.25rem);
+}
+
+.home__scroll-mouse {
+    font-size: 2rem;
+}
+
+.home__scroll-name {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 0.25rem;
+}
+
+.home__scroll-arrow {
+    font-size: 1.25rem;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+
+}
+
+/* About */
+.container {
+    max-width: 768px;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.about__container{
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section__title {
+    font-size: 1.5rm;
+    color: hsl(215, 8%, 15%);
+    margin-top: 2rem;
+}
+
+.section__subtitle {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.about__img {
+    width: 250px;
+    border-radius: .9rem;
+    justify-self: center;
+    align-self: center;
+}
+.about__description {
+    text-align: justify;
+    /*left or right aligned, centered, or justified*/
+    margin-bottom: .5rem;
+}
+
+
+/* Footer */
 footer {
     background-color: #53131e;
     padding: 10px;
     text-align: center;
     color: #ffffff;
     font-family: ".Figtree", sans-serif;
-  }
+}
 
 .nath {
     display: table;
@@ -132,16 +238,17 @@ footer {
 
 .nav__link {
     color: #ffffff;
-    text-decoration: none ;
+    text-decoration: none;
 }
 
-.linkPerf{
+.linkPerf {
     color: #ffffff;
-    text-decoration: none ;
+    text-decoration: none;
     font-weight: bold;
-    border-bottom: 0.5px solid #ffffff; /*  ->Por si quieres subrayar una palabra/oracion/enlace */
+    border-bottom: 0.2px solid #ffffff;
+    /*  ->Por si quieres subrayar una palabra/oracion/enlace */
 }
 
-.linkPerf :hover{
-    color: #ffffff ;
+.linkPerf :hover {
+    color: #ffffff;
 }
