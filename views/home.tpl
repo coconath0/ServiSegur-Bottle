@@ -26,36 +26,34 @@
                 </li>
 
                 <li class="nav_item">
-                    <a href="/tabla1" class="nav__link">X</a>
+                    <a href="/empresas" class="nav__link">Empresas</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/tabla2" class="nav__link">Y</a>
+                    <a href="/seguros" class="nav__link">Seguros</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/tabla3" class="nav__link">Z</a>
+                    <a href="/servicios" class="nav__link">Servicios</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!-- main -->
-    <main class="main">
         <section class="home section" id="home">
             <div class="cont">
                 <img src="/static/logoEmpresa.png" alt="logo">
-            </div>
+            
             <h1 id="empresaNom"> SERVISEGUR</h1>
-
+            <div id="particles"></div>
             <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Scroll down</span>
+                <a href="#about" class="home__scroll-button button--flex"> <!--  -->
                     <i class="uil uil-arrow-circle-down home__scroll-arrow"></i>
                 </a>
             </div>
 
-            <div id="particles"></div>
+            
+        </div>
         </section>
 
         <!--About-->
@@ -77,7 +75,7 @@
                 </div>
             </div>
         </section>
-    </main>
+
     <footer>
         <p class="footerStyle">&copy; 2023 Ing. de Datos. All rights reserved.</p>
         <p class="footerStyle">Designed by <a class="linkPerf" href="https://github.com/coconath0" target="_blank"
