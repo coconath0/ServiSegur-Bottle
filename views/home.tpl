@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
+%include('header_db.tpl')
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/static/style.css">
-
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <script src="/static/app.js"></script>
-    <script src="/static/particles.js"></script>
-
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/particles.js"></script>
+    <title>Home</title>
 </head>
 
 <body>
@@ -26,15 +17,19 @@
                 </li>
 
                 <li class="nav_item">
-                    <a href="/empresas" class="nav__link">Empresas</a>
+                    <a href="/asistencia" class="nav__link">Asistencia</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/seguros" class="nav__link">Seguros</a>
+                    <a href="/sede" class="nav__link">Sede</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/servicios" class="nav__link">Servicios</a>
+                    <a href="/horario" class="nav__link">Horario</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="/vigilante" class="nav__link">Vigilante</a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +37,7 @@
     <!-- main -->
         <section class="home section" id="home">
             <div class="cont">
-                <img src="/static/logoEmpresa.png" alt="logo">
+                <img src="/static/img/logoEmpresa.png" alt="logo">
             
             <h1 id="empresaNom"> SERVISEGUR</h1>
             <div id="particles"></div>
@@ -63,7 +58,7 @@
             </h2>
             <span class="section__subtitle">Bienvenidos al sistema de base de datos de Servisegur!</span>
             <div class="about__container container grid">
-                <img src="/static/photo_about.png" alt="" class="about__img">
+                <img src="/static/img/photo_about.png" alt="" class="about__img">
                 <div class="about__data">
                     <p class="about__description">
                         ServiSegur es una empresa peruana fundada en 1995, especializada en la prestación de servicios

@@ -15,7 +15,7 @@ fetch('/static/particlesjs-config.json')
     .then(data => particlesJS.load('particles', data));*/
 
 document.addEventListener('DOMContentLoaded', function () {
-  particlesJS.load('particles', '/static/particlesjs-config.json', function () {
+  particlesJS.load('particles', '/static/js/particlesjs-config.json', function () {
     console.log('particle.js loaded');
   });
 });
@@ -26,7 +26,7 @@ particlesJS('particles',
     "fpsLimit":60,
     "particles": {
       "number": {
-        "value": 30,
+        "value": 20,
         "density": {
           "enable": true,
           "value_area": 900
