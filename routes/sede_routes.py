@@ -4,6 +4,7 @@ from database import engine
 
 subapp = Bottle()
 
+#consulta sedes con su empresa
 @subapp.route('/', method='GET')
 def indexS():
     # mensaje
