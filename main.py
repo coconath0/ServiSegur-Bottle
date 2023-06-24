@@ -1,10 +1,10 @@
 from bottle import Bottle, run, template, static_file, request, redirect
 from sqlalchemy import text
-from sqlalchemy import engine
-from routes.asistencia_rou import subapp as asistencia_rou
-from routes.sede_rou import subapp as sede_rou
-from routes.horario_rou import subapp as horario_rou
-from routes.vigilante_rou import subapp as vigilante_rou
+from database import engine
+from routes.asistencia_routes import subapp as asistencia_routes
+from routes.sede_routes import subapp as sede_routes
+from routes.horario_routes import subapp as horario_routes
+from routes.vigilante_routes import subapp as vigilante_routes
 
 app = Bottle()
 
@@ -25,26 +25,13 @@ def server_static(filename):
 """ Front page """
 @app.route('/', method='GET')
 def home():
+    #respuesta
     return template('home')
 
 
-
-@app.route('/asistencia', method='GET')
-def home():
-    return template('asistencia')
-
-@app.route('/sede', method='GET')
-def home():
-    return template('sede')
-
-@app.route('/horario', method='GET')
-def home():
-    return template('horario')
-
-@app.route('/vigilante', method='GET')
-def home():
-    return template('vigilante')
-
-
 if __name__ == '__main__':
+    app.mount('/asistencia', asistencia_routes)
+    app.mount('/sede', sede_routes)
+    app.mount('/horario', horario_routes)
+    app.mount('/vigilante', vigilante_routes)
     run(app, host='localhost', port=8080, debug=True, reloader=True)
