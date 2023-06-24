@@ -12,17 +12,12 @@ def indexV():
     # acceso a db
     conn = engine.connect()
     # ejecutamos un query
-    stmt = text("""
-    SELECT E.id AS id_empleado,E.fecha_ini_contrato, E.nombre,E.dni,E.num_cuenta,'No' AS "portaArma" ,S.tipo FROM vigilantes V
-INNER JOIN empleados E ON E.id= V.empleado_id
+    stmt = text(""" SELECT E.id AS id_empleado, E.fecha_ini_contrato, E.nombre, E.dni, E.num_cuenta,
+    CASE WHEN V.portaArma = 0 THEN 'No' ELSE 'Sí' END AS "portaArma", S.tipo
+FROM vigilantes V
+INNER JOIN empleados E ON E.id = V.empleado_id
 INNER JOIN servicios S ON S.id = V.servicio_id
-WHERE V.portaArma = 0
-UNION
-SELECT E.id AS id_vigilante,E.fecha_ini_contrato, E.nombre,E.dni,E.num_cuenta,'Sí' AS "portaArma" ,S.tipo FROM vigilantes V
-INNER JOIN empleados E ON E.id= V.empleado_id
-INNER JOIN servicios S ON S.id = V.servicio_id
-WHERE V.portaArma = 1
-""".format())
+ORDER BY id_empleado ASC""".format())
     
     rows = conn.execute(stmt)
     conn.close()
