@@ -12,14 +12,14 @@
             <a href="/vigilante/new"><button class="btn">Agregar registro</button></a>
             <table class="center">
                 <thead>
-                    <th> Id </th>
-                    <th> Inicio Contrato </th>
-                    <th> Nombre Vigilante </th>
-                    <th> DNI </th>
-                    <th> Num. cuenta </th>
-                    <th> Porta Arma </th>
-                    <th> Tipo servicio </th>
-                    <th>Acciones</th>
+                    <th style="color: #fff;"> Id </th>
+                    <th style="color: #fff;"> Inicio Contrato </th>
+                    <th style="color: #fff;"> Nombre Vigilante </th>
+                    <th style="color: #fff;"> DNI </th>
+                    <th style="color: #fff;"> Num. cuenta </th>
+                    <th style="color: #fff;"> Porta Arma </th>
+                    <th style="color: #fff;"> Tipo servicio </th>
+                    <th style="color: #fff;">Acciones</th>
 
                 </thead>
                 <tbody>
@@ -43,12 +43,6 @@
             </table>
         </section>
     </main>
-    <footer>
-        <p class="footerStyle">&copy; 2023 Ing. de Datos. All rights reserved.</p>
-        <p class="footerStyle">Designed by <a class="linkPerf" href="https://github.com/coconath0" target="_blank"
-                style="text-decoration: none !important;">Nathaly Ingol</a> - &#169; to creators of tsparticles </p>
-        <p class="footerStyle">Cameo: <a class="linkPerf" href="https://github.com/farodri03" target="_blank">Joaquin</a> alias Fabian R.
-        </p>
-    </footer>
+    %include('footer.tpl')
 
 </body>

@@ -10,25 +10,27 @@
         <nav class="navBar">
             <ul class="nav__list">
                 <li class="nav_item">
-                    <a href="/" class="nav__link active"> Home</a>
+                    <a href="/" class="nav__link active" target="_blank"> Home</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/asistencia" class="nav__link">Asistencia</a>
+                    <a href="/vigilante" class="nav__link" target="_blank">Vigilante</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/sede" class="nav__link">Sede</a>
+                    <a href="/sede" class="nav__link" target="_blank">Sede</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/horario" class="nav__link">Horario</a>
+                    <a href="/horario" class="nav__link" target="_blank">Horario</a>
+                </li>
+                
+                <li class="nav_item">
+                    <a href="/asistencia" class="nav__link" target="_blank">Asistencia</a>
                 </li>
 
-                <li class="nav_item">
-                    <a href="/vigilante" class="nav__link">Vigilante</a>
-                </li>
             </ul>
         </nav>
     </header>
+
 </body>

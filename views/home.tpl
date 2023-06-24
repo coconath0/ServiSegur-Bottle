@@ -17,7 +17,7 @@
                 </li>
 
                 <li class="nav_item">
-                    <a href="/asistencia" class="nav__link" target="_blank">Asistencia</a>
+                    <a href="/vigilante" class="nav__link" target="_blank">Vigilante</a>
                 </li>
 
                 <li class="nav_item">
@@ -27,10 +27,11 @@
                 <li class="nav_item">
                     <a href="/horario" class="nav__link" target="_blank">Horario</a>
                 </li>
-
+                
                 <li class="nav_item">
-                    <a href="/vigilante" class="nav__link" target="_blank">Vigilante</a>
+                    <a href="/asistencia" class="nav__link" target="_blank">Asistencia</a>
                 </li>
+
             </ul>
         </nav>
     </header>
