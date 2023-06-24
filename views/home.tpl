@@ -13,28 +13,29 @@
         <nav class="navBar">
             <ul class="nav__list">
                 <li class="nav_item">
-                    <a href="/" class="nav__link active"> Home</a>
+                    <a href="/" class="nav__link active" target="_blank"> Home</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/asistencia" class="nav__link">Asistencia</a>
+                    <a href="/asistencia" class="nav__link" target="_blank">Asistencia</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/sede" class="nav__link">Sede</a>
+                    <a href="/sede" class="nav__link" target="_blank">Sede</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/horario" class="nav__link">Horario</a>
+                    <a href="/horario" class="nav__link" target="_blank">Horario</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/vigilante" class="nav__link">Vigilante</a>
+                    <a href="/vigilante" class="nav__link" target="_blank">Vigilante</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!-- main -->
+    <main>
         <section class="home section" id="home">
             <div class="cont">
                 <img src="/static/img/logoEmpresa.png" alt="logo">
@@ -70,7 +71,7 @@
                 </div>
             </div>
         </section>
-
+    </main>
     <footer>
         <p class="footerStyle">&copy; 2023 Ing. de Datos. All rights reserved.</p>
         <p class="footerStyle">Designed by <a class="linkPerf" href="https://github.com/coconath0" target="_blank"
