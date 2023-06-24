@@ -18,11 +18,6 @@ body {
     font-family: ".Figtree", sans-serif;
 }
 
-h1, h2, h3, h4 {
-    color: hsl(215, 8%, 15%);
-    font-weight: 700;
-}
-
 .header {
     width: 100%;
     position: relative;
@@ -30,10 +25,12 @@ h1, h2, h3, h4 {
     margin: 0;
     z-index: 1;
 }
+
 /* Sections */
 section{
     margin-top: 60px; /* To avoid content overlay */
     min-height: 100vh;
+    background-color: #f7f3e3;
 }
 
 /*NavBar*/
@@ -90,6 +87,12 @@ li a {
 }
 
 /* Tables */
+table{
+    /* border-collapse: collapse; */
+    border: 2px solid #f7f3e3;
+    border-radius: 10px;
+}
+
 h1 {
     /* font-family: "Merriweather", serif; */
     font-size: 40px;
@@ -110,15 +113,14 @@ h2 {
 
 th {
     background-color: #a9927d;
-    /* Pastel yellow */
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
 td {
     text-align: center;
-    padding: 10px;
-    background-color: #f7f3e3;
-    /* Pastel orange */
+    padding: 15px;
+    background-color: #dfcebe;
 }
 
 td a {
