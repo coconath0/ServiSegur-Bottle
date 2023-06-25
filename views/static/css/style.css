@@ -19,10 +19,10 @@ body {
     font-family: ".Figtree", sans-serif;
 }
 
-h1, h2, h3, h4 {
+/* h1, h2, h3, h4 {
     color: hsl(215, 8%, 15%);
     font-weight: 700;
-}
+} */
 
 .header {
     width: 100%;
@@ -31,15 +31,12 @@ h1, h2, h3, h4 {
     margin: 0;
     z-index: 1;
 }
+
 /* Sections */
-section{
-    margin-top: 60px;
+section .home{
     min-height: 100vh;
 }
 
-.about{
-    background-color: #A9927D;
-}
 
 /*NavBar*/
 a {
@@ -83,7 +80,7 @@ li a {
 
 .nav_item:hover {
     background-color: rgba(27, 4, 8, 0.8);
-    border-radius: 10%;
+    border-radius: 1rem;
 }
 
 .navBar li {
@@ -134,85 +131,83 @@ li a {
 
 /* scroll down Home -> About */
 
-
-.home__scroll a{
-    display: inline-flex;
-}
-
-#home__scroll-button {
-    color: #ffffff;
-    transition: 0.3s;
-}
-
-#home__scroll-button:hover {
-    transform: translateY(0.25rem);
-}
-
-#home__scroll-arrow {
-    font-size: 1.25rem;
-}
-
-.button--flex {
-    display: inline-flex;
-    align-items: center;
-    border: none;
-
-}
-
 /* About */
-.container {
-/*     max-width: 768px; */
+section .about{
+    min-height: 800px;
+    justify-content: center;
+}
+
+span {
+    color: #53131e;
+}
+
+.about {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    background-color: #e2ddc8;
 }
 
-/* .about__container{
-    flex: 1;
-    margin-right: 10px;
-} */
-
-.grid {
-    display: grid;
-    gap: 5rem;
-}
-
-.section__title {
-    font-family: "Merriweather", serif;
-    font-size: 1.5rm;
-    color: hsl(215, 8%, 15%);
-    margin-top: 2rem;
-}
-
-.section__subtitle {
-    display: block;
-    font-size: 1rem;
-    margin-bottom: 3rem;
-}
-
-.section__title,
-.section__subtitle {
-    text-align: center;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.about__img {
-    width: 400px;
-    border-radius: .9rem;
+.about-img img {
+    width: 350px;
+    border-radius: .5rem;
+    margin: 3.5rem;
     justify-self: center;
     align-self: center;
 }
-.about__description {
-    text-align: justify;
-    /*left or right aligned, centered, or justified*/
-    margin-bottom: .5rem;
+
+.heading {
+    font-size: 40px;
+    text-align: center;
 }
 
+.about-content {
+    width: 600px;
+    margin: 2rem;
+    margin-top: -2px;
+}
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 20px;
+    color: #2a070d;
+}
+
+.about-content p{
+    margin: 2rem 0 2rem;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+/* read more button */
+.btn {
+    background-color: #53131e;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background-color: #2a070d;
+    color: #fff;
+    opacity: 1;
+}
 
 /* Footer */
 footer {
@@ -241,8 +236,8 @@ footer {
 .linkPerf {
     color: #ffffff;
     text-decoration: none;
-    font-weight: 600;
-    border-bottom: 0.1px solid #ffffff;
+    font-weight: 500;
+    border-bottom: 0.05px solid #ffffff;
     /*  ->Por si quieres subrayar una palabra/oracion/enlace */
 }
 
