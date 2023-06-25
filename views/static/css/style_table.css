@@ -73,7 +73,7 @@ li a {
 .nav_item:hover {
     /* background-color: rgba(42, 7, 13, 0.8); */
     background-color: #2a070d;
-    border-radius: 10%;
+    border-radius: 0.5rem;
 }
 
 .navBar li {
