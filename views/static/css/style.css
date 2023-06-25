@@ -211,7 +211,7 @@ span {
 
 /* Footer */
 footer {
-    background-color: #53131e;
+    background-color: #2a070d;
     padding: 20px;
     text-align: center;
     color: #ffffff;
@@ -224,7 +224,6 @@ footer {
     vertical-align: bottom;
     margin: 1rem 0 1rem;
     text-align: center;
-    background: #53131e;
     color: #ffffff;
 }
 
