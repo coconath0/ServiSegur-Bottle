@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/style_table.css">
+
+    <style>
+        ::-webkit-scrollbar{
+            width: 14px;
+        }
+
+        ::-webkit-scrollbar-track{
+            background-color: rgba(83, 19, 30, 0.9);
+        }
+        
+        ::-webkit-scrollbar-thumb{
+            background-color: #53131e;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <header class="header" id="header">
