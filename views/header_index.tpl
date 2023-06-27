@@ -25,7 +25,7 @@
         <nav class="navBar">
             <ul class="nav__list">
                 <li class="nav_item">
-                    <a href="/" class="nav__link active" target="_blank"> Home</a>
+                    <a href="/" class="nav__link active"> Home</a>
                 </li>
 
                 <li class="nav_item">

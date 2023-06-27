@@ -13,7 +13,7 @@
         <nav class="navBar">
             <ul class="nav__list">
                 <li class="nav_item">
-                    <a href="/" class="nav__link active" target="_blank"> Home</a>
+                    <a href="/" class="nav__link active"> Home</a>
                 </li>
 
                 <li class="nav_item">
@@ -63,24 +63,7 @@
                     <a href="https://servisegur.com.pe/" target="_blank"><button class="btn">Read More</button></a>
             </div>
         </section>
-        <!-- <section class="about section" id="about">
-            <h2 class="section__title">
-                About Us
-            </h2>
-            <span class="section__subtitle">Bienvenidos al sistema de base de datos de Servisegur!</span>
-            <div class="about__container container grid">
-                <img src="/static/img/photo_about.png" alt="" class="about__img">
-                <div class="about__data">
-                    <p class="about__description">
-                        ServiSegur es una empresa peruana fundada en 1995, especializada en la prestación de servicios
-                        de seguridad privada para empresas y particulares en todo el territorio peruano. La empresa
-                        cuenta con una amplia gama de servicios que se adaptan a las necesidades de cada cliente,
-                        brindando soluciones personalizadas y efectivas para proteger a las personas, bienes y activos
-                        de sus clientes. Tales como seguridad física, vigilancia electrónica, monitoreo remoto,
-                        transporte de valores, protección de personas y gestión de riesgos. </p>
-                </div>
-            </div>
-        </section> -->
+
     </main>
     <footer>
         <p class="footerStyle">&copy; 2023 Ing. de Datos. All rights reserved.</p>
