@@ -13,7 +13,7 @@ def indexA():
     # acceso a db
     conn = engine.connect()
     # ejecutamos un query
-    stmt = text("""SELECT e.nombre AS nombre_vigilante, s.nombre AS nombre_sede, d.nombre AS nombre_dia, ho.rango_horario AS nombre_hora,
+    stmt = text("""SELECT ca.horario_id AS id,e.nombre AS nombre_vigilante, s.nombre AS nombre_sede, d.nombre AS nombre_dia, ho.rango_horario AS nombre_hora,
 CASE ca.asistencia
 WHEN 0 THEN 'FALTÓ'
 WHEN 1 THEN 'ASISTIÓ'
@@ -24,7 +24,8 @@ JOIN empleados e ON v.empleado_id = e.id
 JOIN sedes s ON ca.sede_id = s.id
 JOIN horarios h ON ca.horario_id = h.id
 JOIN dias d ON h.dia_id = d.id
-JOIN horas ho ON h.hora_id = ho.id """.format())
+JOIN horas ho ON h.hora_id = ho.id 
+ORDER BY id""".format())
     
     rows = conn.execute(stmt)
     conn.close()

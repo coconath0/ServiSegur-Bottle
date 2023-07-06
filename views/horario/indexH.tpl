@@ -7,9 +7,9 @@
         <section>
             <h1>Listado de Horarios</h1>
             <p>{{mensaje}}</p>
-            <a href="/horario/new"><button class="btn">Agregar registro</button></a>
             <table class="center">
                 <thead>
+                    <th style="color: #fff;"> ID </th>
                     <th style="color: #fff;"> Nombre Vigilante </th>
                     <th style="color: #fff;"> Día </th>
                     <th style="color: #fff;"> Horario </th>
@@ -23,10 +23,10 @@
                         <td>{{s[1]}} </td>
                         <td>{{s[2]}} </td>
                         <td>{{s[3]}} </td>
+                        <td>{{s[4]}} </td>
 
                         <td>
                             <a href="/horario/edit?id={{s[0]}}">Editar</a>
-                            <a href="/horario/delete?id={{s[0]}}">Eliminar</a>
                         </td>
                     </tr>
                     % end

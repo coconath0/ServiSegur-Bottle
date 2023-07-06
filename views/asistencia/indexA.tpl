@@ -7,9 +7,10 @@
         <section>
             <h1>Listado de Asistencias</h1>
             <p>{{mensaje}}</p>
-            <a href="/asistencia/new"><button class="btn">Agregar registro</button></a>
+            <!-- <a href="/asistencia/new"><button class="btn">Agregar registro</button></a> -->
             <table class="center">
                 <thead>
+                    <th style="color: #fff;"> ID </th>
                     <th style="color: #fff;"> Nombre Vigilante </th>
                     <th style="color: #fff;"> Sede </th>
                     <th style="color: #fff;"> Día </th>
@@ -25,10 +26,11 @@
                         <td>{{s[2]}} </td>
                         <td>{{s[3]}} </td>
                         <td>{{s[4]}} </td>
+                        <td>{{s[5]}} </td>
 
                         <td>
                             <a href="/asistencia/edit?id={{s[0]}}">Editar</a>
-                            <a href="/asistencia/delete?id={{s[0]}}">Eliminar</a>
+                            <!-- <a href="/asistencia/delete?id={{s[0]}}">Eliminar</a> -->
                         </td>
                     </tr>
                     % end
