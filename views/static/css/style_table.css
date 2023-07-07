@@ -38,7 +38,7 @@ a {
     text-decoration: none;
     font-family: ".Figtree", sans-serif;
     font-weight: bold;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 ul {
@@ -91,6 +91,7 @@ table{
     /* border-collapse: collapse; */
     border: 2px solid #f7f3e3;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -102,11 +103,47 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2, h3 {
     color: #53131e;
 }
 
-.center{
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.centerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+}
+
+.formDetails {
+    background-color: #dfcebe;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label,
+input,
+select,
+button {
+    margin-bottom: 15px;
+    /* Add vertical spacing between elements */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.center {
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,8 +166,15 @@ td a {
     padding: 8px;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 .btn {
-    background-color: #a9927d;
+    background-color: #5e503f; /* #a9927d */
     border: none;
     border-radius: 8px;
     color: #fff;
@@ -138,14 +182,14 @@ td a {
     padding: 12px 20px;
     text-align: center;
     font-size: 12px;
-    margin: 5px 2px;
+    margin: 2px 2px;
     opacity: 0.8;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto; 
 }
 
 .btn:hover {
@@ -167,16 +211,18 @@ h3 {
     color: #53131e;
 }
 
-input {
-    padding: 3px;
+input, select {
+    margin-top: 5px;
+    padding: 5px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     width: 300px;
 }
 
 
 /* Footer */
 footer {
+    margin-top: auto;
     background-color: #5e503f;
     padding: 20px;
     text-align: center;
@@ -201,10 +247,10 @@ footer {
 .linkPerf {
     color: #ffffff;
     text-decoration: none;
-    font-weight: 600;
-    border-bottom: 0.1px solid #ffffff;
+    font-weight: 500;
+    /* border-bottom: 0.1px solid #ffffff; */
 }
 
 .linkPerf :hover {
-    color: #ffffff;
+    color: #dfcebe;
 }
