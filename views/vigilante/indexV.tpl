@@ -9,7 +9,7 @@
         <section>
             <h1>Listado de Vigilantes</h1>
             <p>{{mensaje}}</p>
-            <a href="/vigilante/new"><button class="btn">Agregar registro</button></a>
+            <div class="btn-container"><a href="/vigilante/new"><button class="btn">Agregar registro</button></a></div>
             <table class="center">
                 <thead>
                     <th style="color: #fff;"> Id </th>

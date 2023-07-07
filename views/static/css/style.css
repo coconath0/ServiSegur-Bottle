@@ -211,6 +211,7 @@ span {
 
 /* Footer */
 footer {
+    margin-top: auto;
     background-color: #2a070d;
     padding: 20px;
     text-align: center;
@@ -236,7 +237,7 @@ footer {
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
-    border-bottom: 0.05px solid #ffffff;
+    /* border-bottom: 0.05px solid #ffffff; */
     /*  ->Por si quieres subrayar una palabra/oracion/enlace */
 }
 
