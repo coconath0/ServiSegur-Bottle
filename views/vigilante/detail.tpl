@@ -43,6 +43,38 @@
                     % end
                     % end
                 </select><br>
+                <label for="name">Capacitacion:</label><br>
+                <select name="capacitacion">
+                    % if vigilante[7] == 1:
+                    <option selected value="1">Si</option>
+                    <option value="0">No</option>
+                    % else:
+                    <option value="1">Si</option>
+                    <option selected value="0">No</option>
+                    % end
+                </select><br>
+                <label for="name">Seguro:</label><br>
+                <select name="seguro">
+                    % for s in seguros:
+                    % if vigilante[8] == s[1]:
+                    <option selected value="{{s[0]}}">{{s[1]}}</option>
+                    % else:
+                    <option value="{{s[0]}}">{{s[1]}}</option>
+                    % end
+                    % end
+                </select><br>
+
+                <label for="name">Fondo de pension:</label><br>
+                <select name="fondo_pension">
+                    % for s in fondo_pensiones:
+                    % if vigilante[9] == s[1]:
+                    <option selected value="{{s[0]}}">{{s[1]}}</option>
+                    % else:
+                    <option value="{{s[0]}}">{{s[1]}}</option>
+                    % end
+                    % end
+                </select><br>
+
                 <!-- <button class="btn"> Guardar Cambios</button>
                 <a href="/vigilante" class="btnCancel">Cancelar</a> -->
                 <div class="btn-container">
@@ -55,7 +87,8 @@
         <h3>Horarios</h3>
         <!-- <a href="/vigilante/horario/new?vigilante_id={{vigilante[0]}}"><button class="btn">Agregar Horario</button></a> -->
         <div class="btn-container">
-            <a href="/vigilante/horario/new?vigilante_id={{vigilante[0]}}"><button class="btn">Agregar Horario</button></a>
+            <a href="/vigilante/horario/new?vigilante_id={{vigilante[0]}}"><button class="btn">Agregar
+                    Horario</button></a>
         </div>
         <table class="center">
             <thead>
@@ -84,8 +117,6 @@
         % end
     </section>
     % include('footer.tpl')
-
-
 </body>
 
 </html>
