@@ -26,7 +26,7 @@
                         <td>{{s[2]}} </td>
                         <td>{{s[3]}} </td>
                         <td>{{s[4]}} </td>
-                        <td>{{s[5]}} </td>
+                        <td style="font-weight: 600;">{{s[5]}} </td>
 
                         <td>
                             <a href="/asistencia/edit?id={{s[0]}}">Editar</a>
