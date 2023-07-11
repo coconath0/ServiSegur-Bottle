@@ -137,7 +137,7 @@ def delete():
     stmt = text(
         ("DELETE FROM control_asistencias WHERE id = {}").format(control_asistencia_id))
     conn.execute(stmt)
-    # conn.commit()
+    conn.commit()
     conn.close()
     # respuesta
     return redirect("/vigilante/edit?id=" + str(vigilante_id) +
