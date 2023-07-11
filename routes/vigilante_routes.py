@@ -168,7 +168,7 @@ def vigilante_save():
         stmt = text(("INSERT INTO vigilantes (portaArma,capacitacion,servicio_id,empleado_id) VALUES ('{}','{}','{}','{}')").format(
             portaArma, capacitacion, servicio_id, empleado_id))
         conn.execute(stmt)
-        mensaje = "Artista creado con exito"
+        mensaje = "Vigilante creado con exito"
     else:
         # ejecutamos un query
         stmt = text(
