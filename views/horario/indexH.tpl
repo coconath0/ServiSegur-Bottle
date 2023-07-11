@@ -14,7 +14,6 @@
                     <th style="color: #fff;"> Día </th>
                     <th style="color: #fff;"> Horario </th>
                     <th style="color: #fff;"> Sede </th>
-                    <th style="color: #fff;"> Acciones </th>
                 </thead>
                 <tbody>
                     % for s in horario:
@@ -24,10 +23,6 @@
                         <td>{{s[2]}} </td>
                         <td>{{s[3]}} </td>
                         <td>{{s[4]}} </td>
-
-                        <td>
-                            <a href="/horario/edit?id={{s[0]}}">Editar</a>
-                        </td>
                     </tr>
                     % end
                 </tbody>
