@@ -222,7 +222,7 @@ input, select {
 
 /* Footer */
 footer {
-    margin-top: auto;
+    /* margin-top: auto; */
     background-color: #5e503f;
     padding: 20px;
     text-align: center;
