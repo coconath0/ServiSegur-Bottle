@@ -15,19 +15,19 @@
                 </li>
 
                 <li class="nav_item">
-                    <a href="/vigilante" class="nav__link" target="_blank">Vigilante</a>
+                    <a href="/vigilante" class="nav__link" >Vigilante</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/sede" class="nav__link" target="_blank">Sede</a>
+                    <a href="/sede" class="nav__link" >Sede</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="/horario" class="nav__link" target="_blank">Horario</a>
+                    <a href="/horario" class="nav__link" >Horario</a>
                 </li>
                 
                 <li class="nav_item">
-                    <a href="/asistencia" class="nav__link" target="_blank">Asistencia</a>
+                    <a href="/asistencia" class="nav__link" >Asistencia</a>
                 </li>
 
             </ul>
