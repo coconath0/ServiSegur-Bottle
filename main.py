@@ -8,7 +8,7 @@ from routes.vigilante_routes import subapp as vigilante_routes
 
 app = Bottle()
 
-""" Static files """
+#Static files
 @app.route('/static/css/<filename>')
 def server_static(filename):
     return static_file(filename, root='./views/static/css')
@@ -22,7 +22,7 @@ def server_static(filename):
     return static_file(filename, root='./views/static/img')
 
 
-""" Front page """
+#Front page
 @app.route('/', method='GET')
 def home():
     #respuesta

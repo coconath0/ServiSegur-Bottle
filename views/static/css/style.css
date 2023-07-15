@@ -30,6 +30,7 @@ body {
     padding: 0;
     margin: 0;
     z-index: 1;
+    user-select: none;
 }
 
 /* Sections */
@@ -212,6 +213,7 @@ span {
 
 /* Footer */
 footer {
+    font-size: 10px;
     margin-top: auto;
     background-color: #2a070d;
     padding: 20px;
