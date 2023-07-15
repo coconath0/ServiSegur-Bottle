@@ -14,8 +14,13 @@
         <div class="centerForm">
             <form class="formDetails" action="/vigilante/save" method="post">
                 <input type="hidden" name="id" value="{{vigilante[0]}}"><br>
+                <!-- <label for="name">Inicio Contrato:</label><br>
+                <input type="text" name="fecha_ini_contrato" maxlength="15" value="{{vigilante[1]}}"><br> -->
                 <label for="name">Inicio Contrato:</label><br>
-                <input type="text" name="fecha_ini_contrato" maxlength="15" value="{{vigilante[1]}}"><br>
+                <input type="date" name="fecha_ini_contrato" value="{{vigilante[1]}}" pattern="\d{1,2}/\d{1,2}/\d{4}"
+                    placeholder="dd/mm/aaaa" required min="2020-01-01" max="2023-12-31"><br>
+
+
                 <label for="name">Nombre :</label><br>
                 <input type="text" name="nombre" maxlength="30" value="{{vigilante[2]}}"><br>
                 <label for="name">DNI:</label><br>
