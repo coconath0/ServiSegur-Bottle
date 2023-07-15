@@ -19,6 +19,9 @@
                     <th style="color: #fff;"> Num. cuenta </th>
                     <th style="color: #fff;"> Porta Arma </th>
                     <th style="color: #fff;"> Tipo servicio </th>
+                    <th style="color: #fff;"> Capacitacion </th>
+                    <th style="color: #fff;"> Seguro </th>
+                    <th style="color: #fff;"> Fondo pensiones </th>
                     <th style="color: #fff;">Acciones</th>
 
                 </thead>
@@ -32,6 +35,13 @@
                         <td>{{s[4]}} </td>
                         <td>{{s[5]}} </td>
                         <td>{{s[6]}} </td>
+                        % if s[7] == 1:
+                            <td>Sí</td>
+                        % else:
+                            <td>No</td>
+                        %end
+                        <td> {{s[8]}} </td>
+                        <td> {{s[9]}} </td>
 
                         <td>
                             <a href="/vigilante/edit?id={{s[0]}}">Editar</a>
