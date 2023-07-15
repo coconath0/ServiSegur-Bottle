@@ -1,7 +1,11 @@
 % include('header_index.tpl')
 
 <head>
+    % if vigilante[0] == 0:
+    <title>Crear Vigilantes</title>
+    % else:
     <title>Editar Vigilantes</title>
+    % end
 </head>
 
 <body>

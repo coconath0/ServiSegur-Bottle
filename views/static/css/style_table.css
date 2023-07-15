@@ -27,8 +27,9 @@ body {
 }
 
 /* Sections */
-section{
-    margin-top: 60px; /* To avoid content overlay */
+section {
+    margin-top: 60px;
+    /* To avoid content overlay */
     min-height: 100vh;
     background-color: #f7f3e3;
 }
@@ -102,7 +103,8 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: #53131e;
 }
 
@@ -130,6 +132,27 @@ select,
 button {
     margin-bottom: 15px;
     /* Add vertical spacing between elements */
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #53131e;
+}
+
+input:focus {
+    outline: none;
+    border-color: #dfcebe;
+}
+
+select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 .btn-container {
@@ -173,7 +196,8 @@ td a {
 }
 
 .btn {
-    background-color: #5e503f; /* #a9927d */
+    background-color: #5e503f;
+    /* #a9927d */
     border: none;
     border-radius: 8px;
     color: #fff;
@@ -188,7 +212,7 @@ td a {
     text-decoration: none;
     cursor: pointer;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .btn:hover {
@@ -210,7 +234,8 @@ h3 {
     color: #53131e;
 }
 
-input, select {
+input,
+select {
     margin-top: 5px;
     padding: 5px;
     font-size: 14px;
