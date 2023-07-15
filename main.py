@@ -34,4 +34,4 @@ if __name__ == '__main__':
     app.mount('/sede', sede_routes)
     app.mount('/horario', horario_routes)
     app.mount('/vigilante', vigilante_routes)
-    run(app, host='localhost', port=8080, debug=True, reloader=True)
+    run(app, host= 'localhost', port=8000, debug=True, reloader=True)
