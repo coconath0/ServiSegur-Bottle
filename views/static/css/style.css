@@ -1,8 +1,8 @@
 /* pa comentar -> shift + alt + a */
 /*@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap);*/
-@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap);
 
-@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap);
 
 * {
     box-sizing: border-box;
@@ -179,6 +179,7 @@ span {
 .about-content p{
     margin: 2rem 0 2rem;
     font-size: 15px;
+    font-weight: 400;
     text-align: justify;
     
 }

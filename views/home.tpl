@@ -52,12 +52,7 @@
             <div class="about-content">
                 <h2 class="heading">About <span>Us</span></h2>
                 <h3>Hello! This is a database filter system for our class of Data Engineering</h3>
-                <p>ServiSegur es una empresa peruana fundada en 1995, especializada en la prestación de servicios
-                    de seguridad privada para empresas y particulares en todo el territorio peruano. La empresa
-                    cuenta con una amplia gama de servicios que se adaptan a las necesidades de cada cliente,
-                    brindando soluciones personalizadas y efectivas para proteger a las personas, bienes y activos
-                    de sus clientes. Tales como seguridad física, vigilancia electrónica, monitoreo remoto,
-                    transporte de valores, protección de personas y gestión de riesgos. </p>
+                <p>ServiSegur is a Peruvian company founded in 1995, specialized in providing private security services for companies and individuals throughout the Peruvian territory. The company has a wide range of services that adapt to the needs of each client, providing personalized and effective solutions to protect the people, goods and assets of its clients. Such as physical security, electronic surveillance, remote monitoring, transportation of valuables, protection of people and risk management. </p>
                     <a href="https://servisegur.com.pe/" target="_blank"><button class="btn">Read More</button></a>
             </div>
         </section>
