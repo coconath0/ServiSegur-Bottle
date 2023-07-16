@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap);
 
-@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap);
 
 
 * {
@@ -24,6 +24,7 @@ body {
     padding: 0;
     margin: 0;
     z-index: 1;
+    user-select: none;
 }
 
 /* Sections */
@@ -92,6 +93,7 @@ table {
     /* border-collapse: collapse; */
     border: 2px solid #f7f3e3;
     border-radius: 10px;
+    user-select: none;
 }
 
 h1 {
@@ -101,11 +103,13 @@ h1 {
     padding: 30px;
     color: #2a070d;
     text-align: center;
+    user-select: none;
 }
 
 h2,
 h3 {
     color: #53131e;
+    user-select: none;
 }
 
 h3 {
@@ -124,6 +128,7 @@ h3 {
     background-color: #dfcebe;
     padding: 20px;
     border-radius: 5px;
+    user-select: none;
 }
 
 label,
@@ -135,6 +140,7 @@ button {
 }
 
 input{
+    border-radius: 5px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -158,6 +164,7 @@ select {
 .btn-container {
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 .btn {
@@ -253,6 +260,7 @@ footer {
     text-align: center;
     color: #ffffff;
     font-family: ".Figtree", sans-serif;
+    user-select: none;
 }
 
 .footerStyle {
@@ -272,8 +280,8 @@ footer {
 .linkPerf {
     color: #ffffff;
     text-decoration: none;
-    font-weight: 500;
-    /* border-bottom: 0.1px solid #ffffff; */
+    font-weight: 600;
+    border-bottom: 0.1px solid #ffffff;
 }
 
 .linkPerf :hover {
