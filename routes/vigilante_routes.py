@@ -106,7 +106,7 @@ INNER JOIN sedes S ON CA.sede_id = S.id
 INNER JOIN empresas E ON S.empresa_id = E.id
 INNER JOIN vigilantes v ON CA.vigilante_id = v.id
 WHERE empleado_id = {};
-  """).format(vigilante_id))
+""").format(vigilante_id))
     control_asistencia = conn.execute(stmt).fetchall()
     stmt1 = text(("SELECT * FROM servicios").format())
     servicio = conn.execute(stmt1).fetchall()
