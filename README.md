@@ -55,10 +55,10 @@ pip install -r requirements.txt
 
 ### Running the Application
 
-To run the application, simply execute the `app.py` file:
+To run the application, simply execute the `maih.py` file:
 
 ```bash
-python app.py
+python main.py
 ```
 
 The application will run at `http://localhost:8000/`, and you can access it from your web browser.
