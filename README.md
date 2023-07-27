@@ -27,7 +27,7 @@ The project uses a SQLite database to store information. To configure the databa
 
 1. Ensure you have SQLite installed on your system.
 
-2. Open the `main.py` file and look for the following lines of code:
+2. Open the `database.py` file and look for the following lines of code:
 
 ```python
 import os
