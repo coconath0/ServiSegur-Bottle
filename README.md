@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### Running the Application
 
-To run the application, simply execute the `maih.py` file:
+To run the application, simply execute the `main.py` file:
 
 ```bash
 python main.py
