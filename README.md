@@ -63,10 +63,10 @@ python main.py
 
 The application will run at `http://localhost:8000/`, and you can access it from your web browser.
 
-####If you get an error from sqlalchemy then use the command below:
+If you get an error from sqlalchemy then use the command below:
 
 ```
-> pip install --upgrade sqlalchemy
+pip install --upgrade sqlalchemy
 ```
 
 ### Application Routes
